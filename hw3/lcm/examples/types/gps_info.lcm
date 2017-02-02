@@ -1,0 +1,11 @@
+package bot_messages;
+
+struct gpsdata
+{
+	string timestamp;
+	double latitude;
+	double longitude;
+	double altitude; 
+	double utm_x;
+	double utm_y;
+}

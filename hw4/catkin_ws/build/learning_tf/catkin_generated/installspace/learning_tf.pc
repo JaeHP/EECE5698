@@ -1,0 +1,8 @@
+prefix=/home/jayesh/EECE5698/hw4/catkin_ws/install
+
+Name: learning_tf
+Description: Description of learning_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jayesh/EECE5698/hw4/catkin_ws/install/lib 
+Requires: roscpp rospy turtlesim tf std_msgs

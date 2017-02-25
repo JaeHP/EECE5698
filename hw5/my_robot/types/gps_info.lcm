@@ -1,0 +1,11 @@
+package sensors;
+
+struct gps_t
+{
+	string time_stamp;
+	double lat;
+	double lon;
+	double alt; 
+	double utm_x;
+	double utm_y;
+}

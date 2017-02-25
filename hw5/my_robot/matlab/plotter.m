@@ -104,10 +104,10 @@ end
 %From magnetometer
 yawmag = atan2(mag_cal(2,:),mag_cal(1,:));
 yawoffset = mean(yawmag(1:10));
+
 %From gyroscope(integrate data)
 %using cumtrapz
 yawg_ctz =- cumtrapz(imutimestamp,gyro(3,:));
-% yawg_ctz = -yawg_ctz - yawoffset;
 
 
 %usinf 1-pole butterworth lowpass filter
